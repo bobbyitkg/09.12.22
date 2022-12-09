@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 100px;
+}
+
 .example-1 {
   width: 150px;
   height: 150px;
 
   position: relative;
+
+  transform: rotate(45deg);
 }
 
 .example-1 div {
